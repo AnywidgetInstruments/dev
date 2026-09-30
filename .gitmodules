@@ -16,3 +16,9 @@
 [submodule "dotgithub"]
 	path = dotgithub
 	url = git@github.com:AnywidgetInstruments/.github.git
+[submodule "anywidget-instruments"]
+	path = anywidget-instruments
+	url = git@github.com:AnywidgetInstruments/anywidget-instruments.git
+[submodule "anywidgetinstruments.github.io"]
+	path = anywidgetinstruments.github.io
+	url = git@github.com:AnywidgetInstruments/anywidgetinstruments.github.io.git

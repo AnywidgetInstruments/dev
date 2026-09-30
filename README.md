@@ -25,14 +25,10 @@ git submodule update --remote --merge
 | Path | Repository |
 |------|------------|
 | `afm-host-panel` | https://github.com/AnywidgetInstruments/afm-host-panel |
+| `anywidget-instruments` | https://github.com/AnywidgetInstruments/anywidget-instruments (core of the widget libraries) |
 | `anywidget-instruments-automotive` | https://github.com/AnywidgetInstruments/anywidget-instruments-automotive |
 | `anywidget-instruments-industrial` | https://github.com/AnywidgetInstruments/anywidget-instruments-industrial |
 | `AnywidgetInstruments.jl` | https://github.com/AnywidgetInstruments/AnywidgetInstruments.jl |
 | `Anywidget.jl` | https://github.com/AnywidgetInstruments/Anywidget.jl |
+| `anywidgetinstruments.github.io` | https://github.com/AnywidgetInstruments/anywidgetinstruments.github.io (organization site) |
 | `dotgithub` | https://github.com/AnywidgetInstruments/.github (organization profile and visual identity) |
-
-> **Note:** [`anywidget-instruments`](https://github.com/AnywidgetInstruments/anywidget-instruments) is not included yet because the repository is currently empty. Add it once it has a first commit:
->
-> ```sh
-> git submodule add git@github.com:AnywidgetInstruments/anywidget-instruments.git anywidget-instruments
-> ```
