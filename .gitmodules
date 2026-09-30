@@ -1,0 +1,15 @@
+[submodule "afm-host-panel"]
+	path = afm-host-panel
+	url = git@github.com:AnywidgetInstruments/afm-host-panel.git
+[submodule "anywidget-instruments-automotive"]
+	path = anywidget-instruments-automotive
+	url = git@github.com:AnywidgetInstruments/anywidget-instruments-automotive.git
+[submodule "anywidget-instruments-industrial"]
+	path = anywidget-instruments-industrial
+	url = git@github.com:AnywidgetInstruments/anywidget-instruments-industrial.git
+[submodule "AnywidgetInstruments.jl"]
+	path = AnywidgetInstruments.jl
+	url = git@github.com:AnywidgetInstruments/AnywidgetInstruments.jl.git
+[submodule "Anywidget.jl"]
+	path = Anywidget.jl
+	url = git@github.com:AnywidgetInstruments/Anywidget.jl.git
