@@ -13,3 +13,6 @@
 [submodule "Anywidget.jl"]
 	path = Anywidget.jl
 	url = git@github.com:AnywidgetInstruments/Anywidget.jl.git
+[submodule "dotgithub"]
+	path = dotgithub
+	url = git@github.com:AnywidgetInstruments/.github.git

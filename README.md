@@ -29,6 +29,7 @@ git submodule update --remote --merge
 | `anywidget-instruments-industrial` | https://github.com/AnywidgetInstruments/anywidget-instruments-industrial |
 | `AnywidgetInstruments.jl` | https://github.com/AnywidgetInstruments/AnywidgetInstruments.jl |
 | `Anywidget.jl` | https://github.com/AnywidgetInstruments/Anywidget.jl |
+| `dotgithub` | https://github.com/AnywidgetInstruments/.github (organization profile and visual identity) |
 
 > **Note:** [`anywidget-instruments`](https://github.com/AnywidgetInstruments/anywidget-instruments) is not included yet because the repository is currently empty. Add it once it has a first commit:
 >
