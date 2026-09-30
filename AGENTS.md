@@ -19,7 +19,7 @@ when it has one; they take precedence over this file for that submodule.
 | `anywidget-instruments` | the **core**: base view and Python base class, base **trait contract** (JSON Schema) and its generator, themes and styles, liveness; no widget | TypeScript sources, Python package |
 | `anywidget-instruments-industrial` | `anywidget-instruments-industrial` (module `anywidget_instruments_industrial`): instrumentation widgets (knobs, gauges, LEDs, charts, alarms, supervisory objects), built on the core | TypeScript front end, Python package |
 | `anywidget-instruments-automotive` | `anywidget-instruments-automotive`: automotive instruments (speedometer, tachometer, tell-tales, cluster, …), built on the core | TypeScript front end, Python package |
-| `anywidget-instruments-aeronautics` | `anywidget-instruments-aeronautics`: flight instruments (airspeed, attitude, altimeter, …), to be built on the core; design stage (specification only) | Markdown, MkDocs |
+| `anywidget-instruments-aeronautics` | `anywidget-instruments-aeronautics`: flight instruments (airspeed, attitude, altimeter, turn coordinator, heading, vertical speed), built on the core; early implementation | TypeScript front end, Python package |
 | `Anywidget.jl` | Julia host for anywidget front-end modules (AFM): standalone HTML, Jupyter, Pluto, Kaimon Slate | Julia |
 | `AnywidgetInstruments.jl` | The anywidget-instruments widgets in Julia, hosted by Anywidget.jl | Julia |
 | `afm-host-panel` | Grafana panel plugin hosting AFM modules, with the anywidget-instruments widgets built in | TypeScript, Grafana |
@@ -36,7 +36,7 @@ anywidget-instruments   (core: base view and class, base contract and generator,
  │     └── afm-host-panel               vendors the bundle (src/widgets/anywidget-instruments-industrial/)
  ├── anywidget-instruments-automotive   pins the core at a commit (package.json); widgets + bundle
  │     └── afm-host-panel               vendors the bundle (src/widgets/anywidget-instruments-automotive/)
- └── anywidget-instruments-aeronautics  design stage: specification only, no code yet
+ └── anywidget-instruments-aeronautics  pins the core at a commit (package.json); widgets + bundle
 ```
 
 - The traits common to every widget live in
@@ -74,7 +74,7 @@ Checks are run inside each submodule, with its own tooling:
 | `anywidget-instruments` | `npm run typecheck`, `npm run lint`, `npm test`, `pytest`, `ruff check . && ruff format --check . && mypy src`, `mkdocs build --strict` |
 | `anywidget-instruments-industrial` | `npm run build`, `npm run typecheck`, `npm test`, `npm run lint`, `pytest`, `ruff check . && mypy src`, `npx playwright test` (see its `AGENTS.md`) |
 | `anywidget-instruments-automotive` | `npm run build`, `npm run lint`, `npm run typecheck`, `npm test`, `pytest`, `ruff check . && mypy src`, `mkdocs build --strict`, `npx playwright test` (see its `AGENTS.md`) |
-| `anywidget-instruments-aeronautics` | `mkdocs build --strict` (documentation and specification only for now) |
+| `anywidget-instruments-aeronautics` | `npm run build`, `npm run lint`, `npm run typecheck`, `npm test`, `pytest`, `ruff check . && mypy src`, `mkdocs build --strict` (see its `AGENTS.md`) |
 | `anywidgetinstruments.github.io` | `mkdocs build --strict`, with `docs/brand/` copied from `dotgithub/brand` (see its README) |
 | `Anywidget.jl` | `just check` (format, tests, Slate tests, docs) |
 | `AnywidgetInstruments.jl` | `just check` (format, tests, Slate tests, examples, docs) |

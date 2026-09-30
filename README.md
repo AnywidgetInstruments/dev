@@ -26,7 +26,7 @@ git submodule update --remote --merge
 |------|------------|
 | `afm-host-panel` | https://github.com/AnywidgetInstruments/afm-host-panel |
 | `anywidget-instruments` | https://github.com/AnywidgetInstruments/anywidget-instruments (core of the widget libraries) |
-| `anywidget-instruments-aeronautics` | https://github.com/AnywidgetInstruments/anywidget-instruments-aeronautics (design stage) |
+| `anywidget-instruments-aeronautics` | https://github.com/AnywidgetInstruments/anywidget-instruments-aeronautics (early implementation) |
 | `anywidget-instruments-automotive` | https://github.com/AnywidgetInstruments/anywidget-instruments-automotive |
 | `anywidget-instruments-industrial` | https://github.com/AnywidgetInstruments/anywidget-instruments-industrial |
 | `AnywidgetInstruments.jl` | https://github.com/AnywidgetInstruments/AnywidgetInstruments.jl |
