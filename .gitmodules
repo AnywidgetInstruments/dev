@@ -22,3 +22,6 @@
 [submodule "anywidgetinstruments.github.io"]
 	path = anywidgetinstruments.github.io
 	url = git@github.com:AnywidgetInstruments/anywidgetinstruments.github.io.git
+[submodule "anywidget-instruments-aeronautics"]
+	path = anywidget-instruments-aeronautics
+	url = git@github.com:AnywidgetInstruments/anywidget-instruments-aeronautics.git
